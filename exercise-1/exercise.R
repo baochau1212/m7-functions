@@ -10,12 +10,13 @@ AddThree <- function(a) {
 ten <- AddThree(7)
 
 # Write a function `FeetToMeters` that converts from feet to meters
-FeetToMeters <- function(feet)
- meter <- feet*0.3048
-return (meter)
-
+FeetToMeters <- function(feet) {
+  meter <- feet *0.3048
+  return (meter)
+}
 # Create a variable `height.in.feet` that is your height in feet
 height.in.feet <- 5
 
 # Create a variable `height.in.meters` by passing `height.in.feet` to your `FeetToMeters` function
 height.in.meter <- FeetToMeters(height.in.feet)
+
